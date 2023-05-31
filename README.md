@@ -6,6 +6,6 @@ This repo is for my final project
 
 HTML, CSS, Bootstrap
 
-Audio in movies, movies category.
+Music Lessons, not one of the categories.
 
-There's a history of audio in film page, a type of audio in film+jobs page, and a contact form page
+There's an overview/approach to teaching page, a 'what's needed to take lessons' page (in table form), and a contact form page for inquiries
