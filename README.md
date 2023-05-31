@@ -9,3 +9,5 @@ HTML, CSS, Bootstrap
 Music Lessons, not one of the categories.
 
 There's an overview/approach to teaching page, a 'what's needed to take lessons' page (in table form), and a contact form page for inquiries
+
+test
