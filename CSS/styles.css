@@ -1,0 +1,15 @@
+main{
+    background-color: #003F7D;
+}
+
+nav, footer{
+    background-color: #0066CC;
+}
+
+h1, p, th, td, label, li a{
+    color: #FF8E00;
+}
+
+li a:hover{
+    color: #FFFFFF;
+}
