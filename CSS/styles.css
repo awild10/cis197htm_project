@@ -13,3 +13,24 @@ h1, p, th, td, label, li a{
 li a:hover{
     color: #FFFFFF;
 }
+
+img{
+    width: 32%;
+}
+
+/*.3column{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10em;
+    background-color: #003F7D;
+    color: #FF8E00;
+}*/
+
+.3column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
