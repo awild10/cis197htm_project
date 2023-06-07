@@ -16,7 +16,7 @@ li a:hover{
 
 img{
     width: 32%;
-}
+} 
 
 /*.3column{
     display: grid;
@@ -26,11 +26,24 @@ img{
     color: #FF8E00;
 }*/
 
-.3column {
+/*.3column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 0px;
+}*/
+
+.3column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+ 
+.column{
+    flex: 200px;
 }
 
