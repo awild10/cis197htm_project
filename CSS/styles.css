@@ -1,49 +1,110 @@
-main{
-    background-color: #003F7D;
+/* GENERAL STYLING */
+    main{
+        background-color: #003F7D;
+    }
+
+    nav, footer{
+        background-color: #0066CC;
+    }
+
+    h1, p, th, td, label, li a{
+        color: #FF8E00;
+    }
+
+    body{
+        background-color: #003F7D;
+    }
+
+    img{
+        width: 100%;
+    } 
+
+    p{
+        100%;
+    }
+
+/* NAV STYLING */
+    /* nav{
+        width: 50%;
+    } */
+
+    .links{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        list-style-type: none;
+        margin: none;
+        padding: 2em;
+    }
+
+    li{
+        flex: 1;
+        font-size: 3em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    li a:hover{
+        display: block;
+        color: #FFFFFF;
+
+        text-decoration: solid;
+        text-shadow: #FF8E00;
+        font-size: 1.25em;
+    }
+
+
+
+
+/* FLEXBOX */
+
+    /*.3column{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 10em;
+        background-color: #003F7D;
+        color: #FF8E00;
+    }*/
+
+    /*.3column {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+    }*/
+
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .column{
+        flex: 1;
+    }
+
+
+/* CONTENT */
+h1{
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}   
+
+.content{
+    font-size: 2em;
 }
 
-nav, footer{
-    background-color: #0066CC;
-}
-
-h1, p, th, td, label, li a{
-    color: #FF8E00;
-}
-
-li a:hover{
-    color: #FFFFFF;
-}
-
-img{
-    width: 32%;
-} 
-
-/*.3column{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10em;
-    background-color: #003F7D;
-    color: #FF8E00;
-}*/
-
-/*.3column {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-}*/
-
-.3column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-}
-
- 
-.column{
-    flex: 200px;
+td{
+    padding: .5em;
+    text-align: center;
 }
 
